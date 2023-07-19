@@ -1,14 +1,14 @@
 clone:
   type: git
   server: github.com
-  repository: ADVRHumanoids/concert_description.git
+  repository: manuelvogel12/concert_description.git  # ADVRHumanoids/concert_description.git
   tag: master
   ros_src: true
   recursive: true
 
 depends:
   - modular
-  # - realsense_gazebo_description
+  - realsense_gazebo_description
   - velodyne_description
   - velodyne_gazebo_plugins
 
