@@ -1,0 +1,3 @@
+depends:
+  - sara-shield
+  - concert_description

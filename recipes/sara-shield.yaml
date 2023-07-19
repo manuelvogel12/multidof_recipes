@@ -1,0 +1,7 @@
+clone:
+  type: git
+  server: github.com
+  repository: manuelvogel12/sara-shield.git
+  tag: main
+  ros_src: true
+  recursive: true
