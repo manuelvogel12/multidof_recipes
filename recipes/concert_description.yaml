@@ -8,7 +8,7 @@ clone:
 
 depends:
   - modular
-  - realsense_gazebo_description
+  # - realsense_gazebo_description
   - velodyne_description
   - velodyne_gazebo_plugins
 
