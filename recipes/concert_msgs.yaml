@@ -2,6 +2,6 @@ clone:
   type: git
   server: github.com
   repository: ADVRHumanoids/concert_msgs.git
-  tag: ros1-tum
+  tag: ros1
   ros_src: true
   recursive: true
