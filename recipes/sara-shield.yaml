@@ -5,3 +5,9 @@ clone:
   tag: main
   ros_src: true
   recursive: true
+
+build:
+  type: cmake
+
+post_build:
+  - make install
