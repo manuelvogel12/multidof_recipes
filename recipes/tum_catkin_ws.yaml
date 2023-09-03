@@ -4,5 +4,7 @@ depends:
 
 build:
   type: custom
-   cmd:
+  cmd:
+    - rosdep update && rosdep install --from-paths src --ignore-src -r -y
+    - catkin init && catkin config --install
     - catkin build
