@@ -11,6 +11,8 @@ depends:
 
 build:
   type: cmake
+  args:
+    - -S../../src/sara-shield/safety_shield
 
 post_build:
   - sudo make install
