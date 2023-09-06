@@ -1,7 +1,7 @@
 clone:
   type: git
   server: github.com
-  repository: JakobThumm/human-gazebo.git
+  repository: manuelvogel12/human-gazebo.git
   tag: main
   ros_src: true
   recursive: true
