@@ -8,8 +8,6 @@ clone:
 
 build:
   type: cmake
-  args:
-    - -DCMAKE_INSTALL_PREFIX=-./../install
-
+  
 post_build:
   - sudo make install
