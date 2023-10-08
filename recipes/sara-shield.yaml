@@ -9,11 +9,10 @@ clone:
 depends:
   - eigen34
 
-# build:
-#  type: cmake
-#  args:
-#    - -S../../src/sara-shield/safety_shield
-#    - -DCMAKE_INSTALL_PREFIX=../../install
-#
-# post_build:
-#  - sudo make install
+build:
+  type: cmake
+  args:
+    - -S../../src/sara-shield/safety_shield
+
+ post_build:
+    - sudo make install
