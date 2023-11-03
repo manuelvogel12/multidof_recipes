@@ -1,0 +1,18 @@
+clone:
+  type: git
+  server: github.com
+  repository: manuelvogel12/sara-shield.git
+  tag: main
+  ros_src: true
+  recursive: true
+
+depends:
+  - eigen34
+
+build:
+  type: cmake
+  args:
+    - -S../../src/sara-shield/safety_shield
+
+post_build:
+  - sudo make install
