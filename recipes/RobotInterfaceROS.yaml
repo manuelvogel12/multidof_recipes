@@ -4,7 +4,8 @@ clone:
   repository: advrhumanoids/RobotInterfaceROS.git
   tag: devel
   tag_if:
-    stable: v1.1.10
+    stable: v1.2.0
+    ros2: ros2
 
 pre_build_if:
   binary_gen:
